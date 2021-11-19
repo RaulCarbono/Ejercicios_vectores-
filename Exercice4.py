@@ -15,8 +15,8 @@ repeat_number = [0]
 for i in vector:
     veces = vector.count(i)
     if veces > repeated:
-        repeat_number = i
-        repeated = veces
-
-print(f"the number that is repeated the most is : {repeat_number}")
+         repeat_number = i
+         repeated = veces
+    print(veces)
+print(f"the number that is repeated the most is : {repeat_number} , {veces}")
         
